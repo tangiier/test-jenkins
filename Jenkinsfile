@@ -6,7 +6,7 @@ agent any
     stage('Checkout'){
         steps{
             echo "checkout..."
-            sh 'usermod -a -G docker tangiier'
+            sh 'groups Jenkins'
             checkout scm
        }
   }
