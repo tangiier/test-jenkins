@@ -7,15 +7,11 @@ pipeline{
         }
     }
 
-    environment {
-        CI = 'true'
-    }
-
   stages{
     stage('Checkout'){
-       // steps{
+        steps{
             checkout scm
-       //}
+       }
   }
     stage('NPM Install'){
         steps{
