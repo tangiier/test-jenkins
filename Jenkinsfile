@@ -6,7 +6,7 @@ agent any
     stage('Checkout'){
         steps{
             echo "checkout..."
-            sh 'groups "Fouad El"'
+            sh 'groups "tangiier"'
             checkout scm
        }
   }
