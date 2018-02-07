@@ -2,6 +2,9 @@ pipeline{
   agent any
 
   stages{
+  stage('Checkout'){
+             checkout scm
+       }
     stage('NPM Install'){
         steps{
             withNPM(npmrcConfig: 'my-custom-nprc') {
