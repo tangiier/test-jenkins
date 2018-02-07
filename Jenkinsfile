@@ -2,9 +2,6 @@ pipeline{
   agent any
 
   stages{
-    stage('Checkout'){
-          checkout scm
-    }
     stage('NPM Install'){
         withEnv(["NPM_CONFIG_LOGLEVEL=warn"]) {
             sh 'npm install'
