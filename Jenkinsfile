@@ -25,7 +25,8 @@ pipeline{
                 sh 'cd angular && npm install && npm run build'
                 sh 'set +x'
                 sh 'set -x'
-                sh 'cd angular && npm start'
+                sh 'cd angular && npm start &'
+                sh 'sleep 1'
                 sh 'set +x'
     //        }
         }
