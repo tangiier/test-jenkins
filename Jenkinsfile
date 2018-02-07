@@ -10,14 +10,13 @@ pipeline{
           }
 
       }
+    environment {
 
-  stages{
-  stage('Checkout'){
-    steps{
-        echo "checkout..."
-       checkout scm
+        CI = 'true'
+
     }
-  }
+  stages{
+
     stage('NPM Install'){
         steps{
         echo "npm install..."
