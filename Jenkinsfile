@@ -10,7 +10,7 @@ pipeline{
     stage('NPM Install'){
         steps{
         echo "npm install"
-            withNPM(npmrcConfig: 'MyCustom') {
+            withNPM() {
                 sh 'npm install'
             }
         }
