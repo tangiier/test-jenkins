@@ -1,14 +1,6 @@
 
 pipeline{
-    agent {
-        docker {
-            image 'node:latest'
-            args '-p 3000:3000'
-        }
-    }
-    environment {
-        CI = 'true'
-    }
+agent any
 
   stages{
     stage('Checkout'){
