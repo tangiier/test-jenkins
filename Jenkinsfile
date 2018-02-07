@@ -27,7 +27,7 @@ pipeline{
                 sh 'set -x'
                 sh 'cd angular && npm start &'
                 sh 'sleep 1'
-                echo $! > .pidfile
+                sh 'echo $! > .pidfile'
                 sh 'set +x'
     //        }
         }
