@@ -3,9 +3,7 @@ pipeline{
 
   stages{
     stage('NPM Install'){
-        withEnv(["NPM_CONFIG_LOGLEVEL=warn"]) {
-            sh 'npm install'
-        }
+        sh 'npm install'
     }
      stage('Build') {
          //   milestone()
