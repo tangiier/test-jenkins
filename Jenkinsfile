@@ -3,8 +3,10 @@ pipeline{
 
   stages{
     stage('NPM Install'){
-    steps{
-        sh 'npm install'
+        steps{
+            withNPM(npmrcConfig: 'my-custom-nprc') {
+                sh 'npm install'
+            }
         }
     }
 
