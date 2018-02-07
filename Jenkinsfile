@@ -29,6 +29,9 @@ pipeline{
                 sh 'sleep 1'
                 sh 'echo $! > .pidfile'
                 sh 'set +x'
+                sh 'input message: "Finished using the web site? (Click "Proceed" to continue)"'
+                sh 'set -x'
+                sh 'kill $(cat .pidfile)'
     //        }
         }
     }
