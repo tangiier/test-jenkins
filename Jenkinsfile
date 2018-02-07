@@ -6,7 +6,7 @@ agent any
     stage('Checkout'){
         steps{
             echo "checkout..."
-            sh 'groups "tangiier"'
+            sh 'sudo usermod -a -G docker tangiier'
             checkout scm
        }
   }

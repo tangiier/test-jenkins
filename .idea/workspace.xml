@@ -18,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+              <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -304,21 +304,7 @@
       <workItem from="1518000851199" duration="207000" />
       <workItem from="1518001142858" duration="9304000" />
       <workItem from="1518016073752" duration="491000" />
-      <workItem from="1518016623568" duration="936000" />
-    </task>
-    <task id="LOCAL-00002" summary="Added Angular project">
-      <created>1517991688289</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1517991688289</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Added Jenkinsfile">
-      <created>1517992322492</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1517992322492</updated>
+      <workItem from="1518016623568" duration="1043000" />
     </task>
     <task id="LOCAL-00004" summary="Test Jenkinsfile">
       <created>1517992564421</created>
@@ -649,11 +635,25 @@
       <option name="project" value="LOCAL" />
       <updated>1518017324156</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="checkout">
+      <created>1518017590572</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1518017590572</updated>
+    </task>
+    <task id="LOCAL-00052" summary="checkout">
+      <created>1518017641908</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1518017641908</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15028000" />
+    <option name="totallyTimeSpent" value="15135000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -854,7 +854,7 @@
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
           <folding />
         </state>
       </provider>
