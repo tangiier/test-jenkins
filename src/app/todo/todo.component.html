@@ -1,0 +1,13 @@
+<ul class="list-group">
+  <li class="list-group-item active">Todo-Auflistung</li>
+  <li class="list-group-item" *ngFor="let todo of todos">{{todo}}</li>
+</ul>
+<br>
+<br>
+<div>
+  <label>Titel: </label> <input [(ngModel)]="todo" type="text">
+  <br>
+  <button (click)="addItem"></button>
+</div>
+
+
