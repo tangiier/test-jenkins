@@ -2,47 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7d783a7-cf50-48c3-a6cd-5c0dbc13cd05" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.angular-cli.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.editorconfig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/.angular-cli.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/.editorconfig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/e2e/app.e2e-spec.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/e2e/app.po.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/e2e/tsconfig.e2e.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/karma.conf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/package-lock.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/protractor.conf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/src/app/app.component.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/src/app/app.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/src/app/app.component.spec.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/src/app/app.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/src/app/app.module.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/src/app/select/select.component.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/src/app/select/select.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/src/app/select/select.component.spec.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/src/app/select/select.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/src/app/timer.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/src/app/todo/todo.component.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/src/app/todo/todo.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/src/app/todo/todo.component.spec.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/src/app/todo/todo.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/src/assets/.gitkeep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/src/environments/environment.prod.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/src/environments/environment.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/src/favicon.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/src/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/src/main.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/src/polyfills.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/src/styles.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/src/test.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/src/tsconfig.app.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/src/tsconfig.spec.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/src/typings.d.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/tsconfig.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular/tslint.json" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" afterPath="$PROJECT_DIR$/Jenkinsfile" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/e2e/app.e2e-spec.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/e2e/app.po.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/e2e/tsconfig.e2e.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/karma.conf.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/protractor.conf.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.spec.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/app/select/select.component.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/app/select/select.component.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/app/select/select.component.spec.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/app/select/select.component.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/app/timer.component.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/app/todo/todo.component.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/app/todo/todo.component.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/app/todo/todo.component.spec.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/app/todo/todo.component.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/assets/.gitkeep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/environments/environment.prod.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/environments/environment.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/favicon.ico" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/polyfills.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/styles.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/tsconfig.app.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/tsconfig.spec.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/typings.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tslint.json" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -168,6 +167,11 @@
             <path>
               <item name="hey" type="b2602c69:ProjectViewProjectNode" />
               <item name="hey" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hey" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hey" type="462c0819:PsiDirectoryNode" />
+              <item name="angular" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -295,7 +299,7 @@
       <workItem from="1517990199011" duration="797000" />
       <workItem from="1517991203973" duration="2665000" />
       <workItem from="1518000851199" duration="207000" />
-      <workItem from="1518001142858" duration="84000" />
+      <workItem from="1518001142858" duration="157000" />
     </task>
     <task id="LOCAL-00001" summary="Added Angular project">
       <created>1517990299307</created>
@@ -325,11 +329,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517992564421</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Test">
+      <created>1518001244891</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1518001244891</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4381000" />
+    <option name="totallyTimeSpent" value="4454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -374,7 +385,8 @@
     <MESSAGE value="Added Angular project" />
     <MESSAGE value="Added Jenkinsfile" />
     <MESSAGE value="Test Jenkinsfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Jenkinsfile" />
+    <MESSAGE value="Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
