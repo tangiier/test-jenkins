@@ -2,7 +2,7 @@ pipeline{
   agent {
 
           docker {
-
+            sh 'groups tangiier'
               image 'node:latest'
 
               args '-p 3000:3000'
