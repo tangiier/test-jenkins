@@ -9,12 +9,16 @@ pipeline{
     }
 
      stage('Build') {
+     steps{
          //   milestone()
          sh 'ng build --prod --aot --sm --progress=false'
+         }
      }
      stage('Deploy') {
+     {
         milestone()
         echo "Deploying..."
+        }
      }
   }
 }
