@@ -1,9 +1,0 @@
-<div class="btn-group">
-  <button type="button" class="btn dropdown-toggle" (click)="dropDownOpened= !dropDownOpened" >
-    {{model}}
-  </button>
-  <div class="dropdown-menu" style="display: block;" *ngIf="dropDownOpened">
-    <a href="#" class="dropdown-item" *ngFor="let item of option" (click)="onOptionSelect(item)" >{{item}}</a>
-  </div>
-</div>
-<input type="text" [(ngModel)]="model">
