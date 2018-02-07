@@ -1,5 +1,5 @@
 pipeline{
-
+agent any
 
   stages{
   stage('Checkout'){
@@ -10,7 +10,6 @@ pipeline{
     stage('NPM Install'){
         steps{
         echo "npm install.."
-         sh 'groups tangiier'
             //withNPM() {
                // sh 'npm install'
             //}
