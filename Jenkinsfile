@@ -3,8 +3,11 @@ pipeline{
 
   stages{
     stage('NPM Install'){
-        bat 'npm install'
+    steps{
+        sh 'npm install'
+        }
     }
+
      stage('Build') {
          //   milestone()
          sh 'ng build --prod --aot --sm --progress=false'
