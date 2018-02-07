@@ -13,6 +13,7 @@ pipeline{
   stages{
     stage('Checkout'){
         steps{
+            echo "npm install..."
             checkout scm
        }
   }
