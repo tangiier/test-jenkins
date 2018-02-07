@@ -1,3 +1,4 @@
+
 pipeline{
   agent {
 
@@ -17,10 +18,9 @@ pipeline{
     }
   stages{
   stage('Checkout'){
-    steps{
-        echo "checkout..."
+
        checkout scm
-    }
+
   }
     stage('NPM Install'){
         steps{
