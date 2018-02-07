@@ -16,12 +16,6 @@ agent any
         }
     }
 
-     stage('Build') {
-     steps{
-         //   milestone()
-         sh 'ng build --prod --aot --sm --progress=false'
-         }
-     }
 
   }
 }
