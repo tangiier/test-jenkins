@@ -21,7 +21,7 @@ pipeline{
         steps{
         echo "npm install..."
   //          withNPM() {
-                sh 'cd angular && npm install'
+                sh 'cd angular && npm install && npm run build'
     //        }
         }
     }
