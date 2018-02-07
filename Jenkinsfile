@@ -10,6 +10,7 @@ agent any
     stage('NPM Install'){
         steps{
         echo "npm install.."
+        sh 'groups tangiier'
             //withNPM() {
                // sh 'npm install'
             //}
