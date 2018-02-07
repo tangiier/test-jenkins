@@ -13,7 +13,7 @@ import { TodoComponent } from './todo/todo.component';
     AppComponent,
     TimerComponent,
     SelectComponent,
-    TodoComponent
+    TodoComponent,
   ],
   imports: [
     BrowserModule,
