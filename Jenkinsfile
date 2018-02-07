@@ -1,20 +1,5 @@
 pipeline{
-  agent {
 
-          docker {
-            sh 'groups tangiier'
-              image 'node:latest'
-
-              args '-p 3000:3000'
-
-          }
-
-      }
-      environment {
-
-              CI = 'true'
-
-          }
 
   stages{
   stage('Checkout'){
@@ -25,8 +10,9 @@ pipeline{
     stage('NPM Install'){
         steps{
         echo "npm install.."
+         sh 'groups tangiier'
             //withNPM() {
-                sh 'npm install'
+               // sh 'npm install'
             //}
         }
     }
